@@ -1,0 +1,52 @@
+
+body {
+  background-color: rgb(66, 66, 66);
+}
+
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin: 2rem;
+  }
+
+.conLeft {
+    justify-content: left; 
+  }
+
+.conCenter {
+  justify-content: center; 
+}
+
+.conRight {
+  justify-content: right; 
+}
+
+.grid {
+  border-radius: 10px;
+  border: 2px solid rgb(28, 28, 28);
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.btnContainer {
+  display: block;
+  text-align: center;
+  margin-top: 5rem;
+}
